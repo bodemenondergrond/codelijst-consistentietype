@@ -1,0 +1,10 @@
+uri,type,dc.id,collection,notation,prefLabel,altLabel,broader,broaderTransitive,broadMatch,changeNote,closeMatch,definition,editorialNote,exactMatch,example,hiddenLabel,historyNote,inScheme,mappingRelation,note,related,relatedMatch,scopeNote,semanticRelation,topConceptOf
+colt:consistentietypes,skos:Collection,consistentietypes,,,Collectie van consistentietypes.,,,,,,,,,,,,,cs,consistentietype,,,,,,
+ct:6,skos:Concept,6,colt:consistentietypes,,hard,,,,,,,,,,,,,cs:consistentietype,,,,,,,cs:consistentietype
+ct:99,skos:Concept,99,colt:consistentietypes,,korrelig,,,,,,,,,,,,,cs:consistentietype,,,,,,,cs:consistentietype
+ct:4,skos:Concept,4,colt:consistentietypes,,matig vast,,,,,,,,,,,,,cs:consistentietype,,,,,,,cs:consistentietype
+ct:3,skos:Concept,3,colt:consistentietypes,,plastisch,,,,,,,,,,,,,cs:consistentietype,,,,,,,cs:consistentietype
+ct:2,skos:Concept,2,colt:consistentietypes,,slap,,,,,,,,,,,,,cs:consistentietype,,,,,,,cs:consistentietype
+ct:5,skos:Concept,5,colt:consistentietypes,,vast,,,,,,,,,,,,,cs:consistentietype,,,,,,,cs:consistentietype
+ct:7,skos:Concept,7,colt:consistentietypes,,versteend,,,,,,,,,,,,,cs:consistentietype,,,,,,,cs:consistentietype
+ct:1,skos:Concept,1,colt:consistentietypes,,zeer slap,,,,,,,,,,,,,cs:consistentietype,,,,,,,cs:consistentietype
