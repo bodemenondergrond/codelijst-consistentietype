@@ -1,0 +1,68 @@
+@prefix colt: <https://data.bodemenondergrond.vlaanderen.be/id/collection/consistentietypes/> .
+@prefix cs:   <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/> .
+@prefix ct:   <https://data.bodemenondergrond.vlaanderen.be/id/concept/consistentietypes/> .
+@prefix dc:   <http://purl.org/dc/elements/1.1/> .
+@prefix dct:  <http://purl.org/dc/terms/> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xkos: <http://rdf-vocabulary.ddialliance.org/xkos#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+
+ct:7    rdf:type           skos:Concept;
+        dc:identifier      "7";
+        skos:inScheme      cs:consistentietype;
+        skos:prefLabel     "versteend"@nl;
+        skos:topConceptOf  cs:consistentietype .
+
+ct:2    rdf:type           skos:Concept;
+        dc:identifier      "2";
+        skos:inScheme      cs:consistentietype;
+        skos:prefLabel     "slap"@nl;
+        skos:topConceptOf  cs:consistentietype .
+
+cs:consistentietype  skos:hasTopConcept
+                ct:1 , ct:7 , ct:5 , ct:2 , ct:3 , ct:4 , ct:99 , ct:6 .
+
+ct:99   rdf:type           skos:Concept;
+        dc:identifier      "99";
+        skos:inScheme      cs:consistentietype;
+        skos:prefLabel     "korrelig"@nl;
+        skos:topConceptOf  cs:consistentietype .
+
+ct:4    rdf:type           skos:Concept;
+        dc:identifier      "4";
+        skos:inScheme      cs:consistentietype;
+        skos:prefLabel     "matig vast"@nl;
+        skos:topConceptOf  cs:consistentietype .
+
+ct:6    rdf:type           skos:Concept;
+        dc:identifier      "6";
+        skos:inScheme      cs:consistentietype;
+        skos:prefLabel     "hard"@nl;
+        skos:topConceptOf  cs:consistentietype .
+
+ct:1    rdf:type           skos:Concept;
+        dc:identifier      "1";
+        skos:inScheme      cs:consistentietype;
+        skos:prefLabel     "zeer slap"@nl;
+        skos:topConceptOf  cs:consistentietype .
+
+ct:3    rdf:type           skos:Concept;
+        dc:identifier      "3";
+        skos:inScheme      cs:consistentietype;
+        skos:prefLabel     "plastisch"@nl;
+        skos:topConceptOf  cs:consistentietype .
+
+colt:consistentietypes
+        rdf:type              skos:Collection;
+        dc:identifier         "consistentietypes";
+        skos:inScheme         <file:///tmp/RtmpQEiE2d/cs>;
+        skos:mappingRelation  <file:///tmp/RtmpQEiE2d/consistentietype>;
+        skos:member           ct:7 , ct:3 , ct:5 , ct:4 , ct:6 , ct:1 , ct:2 , ct:99;
+        skos:prefLabel        "Collectie van consistentietypes."@nl .
+
+ct:5    rdf:type           skos:Concept;
+        dc:identifier      "5";
+        skos:inScheme      cs:consistentietype;
+        skos:prefLabel     "vast"@nl;
+        skos:topConceptOf  cs:consistentietype .
