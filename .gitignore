@@ -15,3 +15,10 @@ buildNumber.properties
 .project
 # JDT-specific (Eclipse Java Development Tools)
 .classpath
+codelijst-consistentietype.iml
+src/.env
+src/utils/setenv.js
+node_modules/
+temp/
+target/
+

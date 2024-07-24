@@ -1,0 +1,11 @@
+uri,dc.identifier,collections,notation,prefLabel,altLabel,broader,broaderTransitive,broadMatch,changeNote,closeMatch,definition,editorialNote,exactMatch,example,hiddenLabel,historyNote,inScheme,mappingRelation,note,related,relatedMatch,scopeNote,semanticRelation,topConceptOf
+collectie:consistentietypes,be.vlaanderen.bodemenondergrond.data.id.collection.consistentietype.consistentietypes,,,Collectie van consistentietypes.,,,,,,,,,,,,,conceptscheme:consistentietype,,,,,,,
+concept:6,be.vlaanderen.bodemenondergrond.data.id.concept.consistentietype.6,collectie:consistentietypes,,hard,,,,,,,,,,,,,conceptscheme:consistentietype,,,,,,,conceptscheme:consistentietype
+concept:99,be.vlaanderen.bodemenondergrond.data.id.concept.consistentietype.99,collectie:consistentietypes,,korrelig,,,,,,,,,,,,,conceptscheme:consistentietype,,,,,,,conceptscheme:consistentietype
+concept:4,be.vlaanderen.bodemenondergrond.data.id.concept.consistentietype.4,collectie:consistentietypes,,matig vast,,,,,,,,,,,,,conceptscheme:consistentietype,,,,,,,conceptscheme:consistentietype
+concept:3,be.vlaanderen.bodemenondergrond.data.id.concept.consistentietype.3,collectie:consistentietypes,,plastisch,,,,,,,,,,,,,conceptscheme:consistentietype,,,,,,,conceptscheme:consistentietype
+concept:2,be.vlaanderen.bodemenondergrond.data.id.concept.consistentietype.2,collectie:consistentietypes,,slap,,,,,,,,,,,,,conceptscheme:consistentietype,,,,,,,conceptscheme:consistentietype
+concept:5,be.vlaanderen.bodemenondergrond.data.id.concept.consistentietype.5,collectie:consistentietypes,,vast,,,,,,,,,,,,,conceptscheme:consistentietype,,,,,,,conceptscheme:consistentietype
+concept:7,be.vlaanderen.bodemenondergrond.data.id.concept.consistentietype.7,collectie:consistentietypes,,versteend,,,,,,,,,,,,,conceptscheme:consistentietype,,,,,,,conceptscheme:consistentietype
+concept:1,be.vlaanderen.bodemenondergrond.data.id.concept.consistentietype.1,collectie:consistentietypes,,zeer slap,,,,,,,,,,,,,conceptscheme:consistentietype,,,,,,,conceptscheme:consistentietype
+conceptscheme:consistentietype,be.vlaanderen.bodemenondergrond.data.id.conceptscheme.consistentietype,,,consistentietype,,,,,,,,,,,,,,,,,,,,

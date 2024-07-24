@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
-  <xs:simpleType name="">
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="urn:be.vlaanderen.bodemenondergrond.data.id.graph:codelijst-consistentietype">
+  <xs:simpleType name="be.vlaanderen.bodemenondergrond.data.id.conceptscheme.consistentietype">
     <xs:restriction base="xs:string">
-      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/consistentietypes/99"/>
-      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/consistentietypes/7"/>
-      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/consistentietypes/6"/>
-      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/consistentietypes/5"/>
-      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/consistentietypes/4"/>
-      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/consistentietypes/3"/>
-      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/consistentietypes/2"/>
-      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/consistentietypes/1"/>
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/consistentietype/1" />
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/consistentietype/2" />
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/consistentietype/3" />
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/consistentietype/4" />
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/consistentietype/5" />
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/consistentietype/6" />
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/consistentietype/7" />
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/consistentietype/99" />
     </xs:restriction>
   </xs:simpleType>
 </xs:schema>
