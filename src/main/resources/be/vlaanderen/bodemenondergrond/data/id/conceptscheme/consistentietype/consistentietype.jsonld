@@ -400,79 +400,110 @@
             "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.collection.consistentietype.consistentietypes",
             "inScheme": "conceptscheme:consistentietype",
             "member": [
-                "concept:1",
-                "concept:2",
-                "concept:3",
-                "concept:4",
-                "concept:5",
-                "concept:6",
-                "concept:7",
-                "concept:99"
+                "concept:plastisch",
+                "concept:slap",
+                "concept:stevig",
+                "concept:stijf",
+                "concept:versteend",
+                "concept:zeerslap",
+                "concept:zeerstijf"
             ],
             "prefLabel": "Collectie van consistentietypes."
         },
         {
-            "id": "concept:1",
+            "id": "concept:plastisch",
             "type": "skos:Concept",
-            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.consistentietype.1",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.consistentietype.plastisch",
+            "seeAlso": "https://app.nbn.be/data/r/platform/frontend/detail?p40_id=189507&p40_language_code=nl&p40_detail_id=85507",
+            "definition": "De grond laat toe om eenvoudig een rolletje van 3 mm  te maken.",
             "inScheme": "conceptscheme:consistentietype",
-            "prefLabel": "zeer slap",
-            "topConceptOf": "conceptscheme:consistentietype"
-        },
-        {
-            "id": "concept:2",
-            "type": "skos:Concept",
-            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.consistentietype.2",
-            "inScheme": "conceptscheme:consistentietype",
-            "prefLabel": "slap",
-            "topConceptOf": "conceptscheme:consistentietype"
-        },
-        {
-            "id": "concept:3",
-            "type": "skos:Concept",
-            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.consistentietype.3",
-            "inScheme": "conceptscheme:consistentietype",
+            "notation": "plastisch",
+            "note": [
+                "De grond laat toe om eenvoudig een rolletje van 3 mm  te maken.",
+                "In de norm NBN EN ISO 14688-1:2018 wordt er een onderscheid gemaakt tussen de eigenschappen consistentie en plasticiteit, met elk een eigen codelijst. Dit veld is behouden in deze versie van codetabel 'Consistentie', maar moet gemigreerd worden naar een aparte tabel 'Plasticiteit' conform de vermelde norm."
+            ],
             "prefLabel": "plastisch",
             "topConceptOf": "conceptscheme:consistentietype"
         },
         {
-            "id": "concept:4",
+            "id": "concept:slap",
             "type": "skos:Concept",
-            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.consistentietype.4",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.consistentietype.slap",
+            "seeAlso": "https://app.nbn.be/data/r/platform/frontend/detail?p40_id=189507&p40_language_code=nl&p40_detail_id=85507",
+            "definition": "De grond kan tot 10 mm diep met de vinger worden ingedrukt en kan met lichte druk van de vingers worden verkneed.",
             "inScheme": "conceptscheme:consistentietype",
-            "prefLabel": "matig vast",
+            "notation": "slap",
+            "note": [
+                "De grond kan tot 10 mm diep met de vinger worden ingedrukt en kan met lichte druk van de vingers worden verkneed.",
+                "Indeling afgeleid van NBN EN ISO 14688-1:2018 en vooral van toepassing voor laag (weinig tot matig) plastische gronden."
+            ],
+            "prefLabel": "slap",
             "topConceptOf": "conceptscheme:consistentietype"
         },
         {
-            "id": "concept:5",
+            "id": "concept:stevig",
             "type": "skos:Concept",
-            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.consistentietype.5",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.consistentietype.stevig",
+            "seeAlso": "https://app.nbn.be/data/r/platform/frontend/detail?p40_id=189507&p40_language_code=nl&p40_detail_id=85507",
+            "altLabel": "matig vast",
             "inScheme": "conceptscheme:consistentietype",
-            "prefLabel": "vast",
+            "notation": "stevig",
+            "note": "De grond kan met de hand gerold worden tot 3 mm dikke strengen zonder te breken of te verkruimelen. Het kan gemakkelijk met de duim worden ingedrukt, maar kan niet met de vingers worden verkneed.",
+            "prefLabel": "stevig",
             "topConceptOf": "conceptscheme:consistentietype"
         },
         {
-            "id": "concept:6",
+            "id": "concept:stijf",
             "type": "skos:Concept",
-            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.consistentietype.6",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.consistentietype.stijf",
+            "seeAlso": "https://app.nbn.be/data/r/platform/frontend/detail?p40_id=189507&p40_language_code=nl&p40_detail_id=85507",
+            "altLabel": "vast",
             "inScheme": "conceptscheme:consistentietype",
-            "prefLabel": "hard",
+            "notation": "stijf",
+            "note": "De grond kan niet met de vingers worden verkneed en verkruimelt of breekt wanneer deze tot 3 mm dikke strengen wordt gerold, maar is nog vochtig genoeg om weer tot een bol te worden gekneed. Met de duim kan een ondiepe indrukking gemaakt worden.",
+            "prefLabel": "stijf",
             "topConceptOf": "conceptscheme:consistentietype"
         },
         {
-            "id": "concept:7",
+            "id": "concept:versteend",
             "type": "skos:Concept",
-            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.consistentietype.7",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.consistentietype.versteend",
+            "seeAlso": "https://app.nbn.be/data/r/platform/frontend/detail?p40_id=189507&p40_language_code=nl&p40_detail_id=85507",
+            "definition": "De grond is versteend en kan niet met de hand in water worden gedesaggregeerd. Het heeft een natuurlijke samenstelling of bestaat uit een aggregaat van mineraalkorrels, kristallen of op mineralen gebaseerde deeltjes, die zijn samengeperst, gecementeerd of anderszins aan elkaar zijn gebonden.",
             "inScheme": "conceptscheme:consistentietype",
+            "notation": "versteend",
+            "note": [
+                "Indeling afgeleid van NBN EN ISO 14688-1:2018 en vooral van toepassing voor laag (weinig tot matig) plastische gronden.",
+                "De grond is versteend en kan niet met de hand in water worden gedesaggregeerd. Het heeft een natuurlijke samenstelling of bestaat uit een aggregaat van mineraalkorrels, kristallen of op mineralen gebaseerde deeltjes, die zijn samengeperst, gecementeerd of anderszins aan elkaar zijn gebonden."
+            ],
             "prefLabel": "versteend",
             "topConceptOf": "conceptscheme:consistentietype"
         },
         {
-            "id": "concept:99",
+            "id": "concept:zeerslap",
             "type": "skos:Concept",
-            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.consistentietype.99",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.consistentietype.zeerslap",
+            "seeAlso": "https://app.nbn.be/data/r/platform/frontend/detail?p40_id=189507&p40_language_code=nl&p40_detail_id=85507",
+            "definition": "De grond kan tot 25 mm diep met de vinger worden ingedrukt en loopt tussen de vingers door wanneer het in de hand wordt samengeknepen.",
             "inScheme": "conceptscheme:consistentietype",
-            "prefLabel": "korrelig",
+            "notation": "zeerslap",
+            "note": [
+                "Indeling afgeleid van NBN EN ISO 14688-1:2018 en vooral van toepassing voor laag (weinig tot matig) plastische gronden.",
+                "De grond kan tot 25 mm diep met de vinger worden ingedrukt en loopt tussen de vingers door wanneer het in de hand wordt samengeknepen."
+            ],
+            "prefLabel": "zeer slap",
+            "topConceptOf": "conceptscheme:consistentietype"
+        },
+        {
+            "id": "concept:zeerstijf",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.consistentietype.zeerstijf",
+            "seeAlso": "https://app.nbn.be/data/r/platform/frontend/detail?p40_id=189507&p40_language_code=nl&p40_detail_id=85507",
+            "altLabel": "hard",
+            "inScheme": "conceptscheme:consistentietype",
+            "notation": "zeerstijf",
+            "note": "De grond kan niet meer worden vervormd en verkruimelt onder druk.  Met de duimnagel kan de grond ingekerfd worden.",
+            "prefLabel": "zeer stijf",
             "topConceptOf": "conceptscheme:consistentietype"
         },
         {
@@ -480,16 +511,15 @@
             "type": "skos:ConceptScheme",
             "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.conceptscheme.consistentietype",
             "hasTopConcept": [
-                "concept:1",
-                "concept:2",
-                "concept:3",
-                "concept:4",
-                "concept:5",
-                "concept:6",
-                "concept:7",
-                "concept:99"
+                "concept:plastisch",
+                "concept:slap",
+                "concept:stevig",
+                "concept:stijf",
+                "concept:versteend",
+                "concept:zeerslap",
+                "concept:zeerstijf"
             ],
-            "prefLabel": "consistentietype"
+            "prefLabel": "Conceptschema consistentietype"
         }
     ]
 }

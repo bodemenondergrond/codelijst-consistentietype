@@ -2,14 +2,13 @@
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="urn:be.vlaanderen.bodemenondergrond.data.id.graph:codelijst-consistentietype">
   <xs:simpleType name="be.vlaanderen.bodemenondergrond.data.id.conceptscheme.consistentietype">
     <xs:restriction base="xs:string">
-      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/consistentietype/1" />
-      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/consistentietype/2" />
-      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/consistentietype/3" />
-      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/consistentietype/4" />
-      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/consistentietype/5" />
-      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/consistentietype/6" />
-      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/consistentietype/7" />
-      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/consistentietype/99" />
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/consistentietype/plastisch" />
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/consistentietype/slap" />
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/consistentietype/stevig" />
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/consistentietype/stijf" />
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/consistentietype/versteend" />
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/consistentietype/zeerslap" />
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/consistentietype/zeerstijf" />
     </xs:restriction>
   </xs:simpleType>
 </xs:schema>
