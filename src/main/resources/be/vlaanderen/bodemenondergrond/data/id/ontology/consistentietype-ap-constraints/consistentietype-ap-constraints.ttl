@@ -114,7 +114,7 @@ omg_ps:seeAlso
     rdfs:label       "zie ook"@en ;
     sh:name          "zie ook"@en ;
     sh:description   "Een verwijzing naar een gelijkaardige 'resource' of een document over het onderwerp."@en ;
-    rdfs:isDefinedBy beo_ont:plasticiteittype, beo_voc:plasticiteittype ;
+    rdfs:isDefinedBy beo_ont:consistentietype, beo_voc:consistentietype ;
     sh:maxCount      1 ;
     sh:nodeKind      sh:IRI ;
     sh:path          rdfs:seeAlso .
@@ -145,7 +145,7 @@ omg_ps:semanticRelation
     rdfs:label       "gerelateerd concept"@en ;
     sh:name          "gerelateerd concept"@en ;
     sh:description   "gerelateerd concept."@en ;
-    rdfs:isDefinedBy beo_ont:plasticiteittype, beo_voc:plasticiteittype ;
+    rdfs:isDefinedBy beo_ont:consistentietype, beo_voc:consistentietype ;
     sh:nodeKind      sh:IRI ;
     sh:path          skos:semanticRelation; .
 
@@ -164,7 +164,7 @@ omg_ps:narrowerTransitive
     rdfs:label       "specifieker concept"@en ;
     sh:name          "specifieker concept"@en ;
     sh:description   "De relatie tussen een concept en een nauwer, specifieker concept binnen hetzelfde schema."@en ;
-    rdfs:isDefinedBy beo_ont:plasticiteittype, beo_voc:plasticiteittype ;
+    rdfs:isDefinedBy beo_ont:consistentietype, beo_voc:consistentietype ;
     sh:class         skos:Concept ;
     sh:nodeKind      sh:IRI ;
     sh:path          skos:narrowerTransitive .
@@ -185,7 +185,7 @@ omg_ps:broaderTransitive
     rdfs:label       "breder concept"@en ;
     sh:name          "breder concept"@en ;
     sh:description   "De relatie tussen een concept en een breder, minder specifiek concept binnen hetzelfde schema."@en ;
-    rdfs:isDefinedBy beo_ont:plasticiteittype, beo_voc:plasticiteittype ;
+    rdfs:isDefinedBy beo_ont:consistentietype, beo_voc:consistentietype ;
     sh:class         skos:Concept ;
     sh:nodeKind      sh:IRI ;
     sh:path          skos:broaderTransitive .
