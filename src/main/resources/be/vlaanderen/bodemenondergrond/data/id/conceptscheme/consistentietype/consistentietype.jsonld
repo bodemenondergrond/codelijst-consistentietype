@@ -395,22 +395,6 @@
     },
     "graph": [
         {
-            "id": "collectie:consistentietypes",
-            "type": "skos:Collection",
-            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.collection.consistentietype.consistentietypes",
-            "inScheme": "conceptscheme:consistentietype",
-            "member": [
-                "concept:plastisch",
-                "concept:slap",
-                "concept:stevig",
-                "concept:stijf",
-                "concept:versteend",
-                "concept:zeerslap",
-                "concept:zeerstijf"
-            ],
-            "prefLabel": "Collectie van consistentietypes."
-        },
-        {
             "id": "concept:plastisch",
             "type": "skos:Concept",
             "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.consistentietype.plastisch",

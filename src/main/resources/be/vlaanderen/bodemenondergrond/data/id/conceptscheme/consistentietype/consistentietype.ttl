@@ -54,11 +54,6 @@
 @prefix xkos: <http://rdf-vocabulary.ddialliance.org/xkos#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 
-collectie:consistentietypes dc:identifier "be.vlaanderen.bodemenondergrond.data.id.collection.consistentietype.consistentietypes";
-    a skos:Collection;
-    skos:inScheme conceptscheme:consistentietype;
-    skos:member concept:plastisch, concept:slap, concept:stevig, concept:stijf, concept:versteend, concept:zeerslap, concept:zeerstijf;
-    skos:prefLabel "Collectie van consistentietypes."@nl.
 concept:plastisch dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.consistentietype.plastisch";
     a skos:Concept;
     rdfs:seeAlso <https://app.nbn.be/data/r/platform/frontend/detail?p40_id=189507&p40_language_code=nl&p40_detail_id=85507>;
