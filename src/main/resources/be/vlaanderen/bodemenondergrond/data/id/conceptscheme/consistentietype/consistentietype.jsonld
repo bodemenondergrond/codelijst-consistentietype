@@ -430,9 +430,13 @@
             "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.consistentietype.stevig",
             "seeAlso": "https://app.nbn.be/data/r/platform/frontend/detail?p40_id=189507&p40_language_code=nl&p40_detail_id=85507",
             "altLabel": "matig vast",
+            "definition": "De grond kan met de hand gerold worden tot 3 mm dikke strengen zonder te breken of te verkruimelen. Het kan gemakkelijk met de duim worden ingedrukt, maar kan niet met de vingers worden verkneed.",
             "inScheme": "conceptscheme:consistentietype",
             "notation": "stevig",
-            "note": "De grond kan met de hand gerold worden tot 3 mm dikke strengen zonder te breken of te verkruimelen. Het kan gemakkelijk met de duim worden ingedrukt, maar kan niet met de vingers worden verkneed.",
+            "note": [
+                "Indeling afgeleid van NBN EN ISO 14688-1:2018 en vooral van toepassing voor laag (weinig tot matig) plastische gronden.",
+                "De grond kan met de hand gerold worden tot 3 mm dikke strengen zonder te breken of te verkruimelen. Het kan gemakkelijk met de duim worden ingedrukt, maar kan niet met de vingers worden verkneed."
+            ],
             "prefLabel": "stevig",
             "topConceptOf": "conceptscheme:consistentietype"
         },
@@ -442,9 +446,13 @@
             "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.consistentietype.stijf",
             "seeAlso": "https://app.nbn.be/data/r/platform/frontend/detail?p40_id=189507&p40_language_code=nl&p40_detail_id=85507",
             "altLabel": "vast",
+            "definition": "De grond kan niet met de vingers worden verkneed en verkruimelt of breekt wanneer deze tot 3 mm dikke strengen wordt gerold, maar is nog vochtig genoeg om weer tot een bol te worden gekneed. Met de duim kan een ondiepe indrukking gemaakt worden.",
             "inScheme": "conceptscheme:consistentietype",
             "notation": "stijf",
-            "note": "De grond kan niet met de vingers worden verkneed en verkruimelt of breekt wanneer deze tot 3 mm dikke strengen wordt gerold, maar is nog vochtig genoeg om weer tot een bol te worden gekneed. Met de duim kan een ondiepe indrukking gemaakt worden.",
+            "note": [
+                "Indeling afgeleid van NBN EN ISO 14688-1:2018 en vooral van toepassing voor laag (weinig tot matig) plastische gronden.",
+                "De grond kan niet met de vingers worden verkneed en verkruimelt of breekt wanneer deze tot 3 mm dikke strengen wordt gerold, maar is nog vochtig genoeg om weer tot een bol te worden gekneed. Met de duim kan een ondiepe indrukking gemaakt worden."
+            ],
             "prefLabel": "stijf",
             "topConceptOf": "conceptscheme:consistentietype"
         },
@@ -484,9 +492,13 @@
             "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.consistentietype.zeerstijf",
             "seeAlso": "https://app.nbn.be/data/r/platform/frontend/detail?p40_id=189507&p40_language_code=nl&p40_detail_id=85507",
             "altLabel": "hard",
+            "definition": "De grond kan niet meer worden vervormd en verkruimelt onder druk.  Met de duimnagel kan de grond ingekerfd worden.",
             "inScheme": "conceptscheme:consistentietype",
             "notation": "zeerstijf",
-            "note": "De grond kan niet meer worden vervormd en verkruimelt onder druk.  Met de duimnagel kan de grond ingekerfd worden.",
+            "note": [
+                "Indeling afgeleid van NBN EN ISO 14688-1:2018 en vooral van toepassing voor laag (weinig tot matig) plastische gronden.",
+                "De grond kan niet meer worden vervormd en verkruimelt onder druk.  Met de duimnagel kan de grond ingekerfd worden."
+            ],
             "prefLabel": "zeer stijf",
             "topConceptOf": "conceptscheme:consistentietype"
         },
